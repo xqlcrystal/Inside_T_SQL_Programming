@@ -65,6 +65,7 @@
     <None Include="5\5-4\VSgn.sql" />
     <None Include="5\5-4\Script1.sql" />
     <None Include="5\5-4\VGrp.sql" />
+    <None Include="5\5-4\Vtrends.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
