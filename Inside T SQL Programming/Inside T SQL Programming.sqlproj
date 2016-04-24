@@ -69,5 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
+    <Build Include="5\5-4\Vtrends_withCTE.sql" />
   </ItemGroup>
 </Project>
