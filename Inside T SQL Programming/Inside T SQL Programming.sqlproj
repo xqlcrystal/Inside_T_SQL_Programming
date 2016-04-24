@@ -67,6 +67,6 @@
     <None Include="5\5-4\VGrp.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="5\5-4\VSalesRN.sql" />
+    <Build Include="5\5-4\VSalesRN.sql" />
   </ItemGroup>
 </Project>
