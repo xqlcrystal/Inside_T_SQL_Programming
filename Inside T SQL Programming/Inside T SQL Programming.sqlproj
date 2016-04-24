@@ -59,6 +59,7 @@
     <Folder Include="Properties" />
     <Folder Include="5" />
     <Folder Include="5\5-4" />
+    <Folder Include="5\5-5" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
@@ -70,5 +71,6 @@
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
     <Build Include="5\5-4\Vtrends_withCTE.sql" />
+    <Build Include="5\5-5\Script1.sql" />
   </ItemGroup>
 </Project>
