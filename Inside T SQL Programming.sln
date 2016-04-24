@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Inside T SQL Programming", "Inside T SQL Programming\Inside T SQL Programming.sqlproj", "{EA1053DC-3E20-4B5F-80F8-ED60F61B083E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA1053DC-3E20-4B5F-80F8-ED60F61B083E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1053DC-3E20-4B5F-80F8-ED60F61B083E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1053DC-3E20-4B5F-80F8-ED60F61B083E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA1053DC-3E20-4B5F-80F8-ED60F61B083E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1053DC-3E20-4B5F-80F8-ED60F61B083E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1053DC-3E20-4B5F-80F8-ED60F61B083E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
