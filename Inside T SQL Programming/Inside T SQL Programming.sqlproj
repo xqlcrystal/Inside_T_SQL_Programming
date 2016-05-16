@@ -60,6 +60,9 @@
     <Folder Include="5" />
     <Folder Include="5\5-4" />
     <Folder Include="5\5-5" />
+    <Folder Include="5\5-7" />
+    <Folder Include="6" />
+    <Folder Include="6\6-2" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
@@ -67,10 +70,13 @@
     <None Include="5\5-4\Script1.sql" />
     <None Include="5\5-4\VGrp.sql" />
     <None Include="5\5-4\Vtrends.sql" />
+    <None Include="6\6-2\fn_add1.sql" />
+    <None Include="6\6-2\fn_GetcustOrders.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
     <Build Include="5\5-4\Vtrends_withCTE.sql" />
     <Build Include="5\5-5\Script1.sql" />
+    <Build Include="5\5-7\vempOrders.sql" />
   </ItemGroup>
 </Project>
