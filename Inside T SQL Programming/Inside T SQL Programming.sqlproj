@@ -65,6 +65,7 @@
     <Folder Include="6\6-2" />
     <Folder Include="7" />
     <Folder Include="7\7-1" />
+    <Folder Include="7\7-2" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
@@ -78,6 +79,7 @@
     <None Include="7\7-1\sp_Globals.sql" />
     <None Include="7\7-1\northwind.dbo.sp_proc1.sql" />
     <None Include="7\7-1\sp_proc2.sql" />
+    <None Include="7\7-2\GetCustOrders.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
