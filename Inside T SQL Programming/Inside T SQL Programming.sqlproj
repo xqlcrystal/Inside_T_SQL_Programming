@@ -80,6 +80,7 @@
     <None Include="7\7-1\northwind.dbo.sp_proc1.sql" />
     <None Include="7\7-1\sp_proc2.sql" />
     <None Include="7\7-2\GetCustOrders.sql" />
+    <None Include="7\7-2\custorders.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
