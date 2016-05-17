@@ -75,6 +75,8 @@
     <None Include="6\6-2\fn_add1.sql" />
     <None Include="6\6-2\fn_GetcustOrders.sql" />
     <None Include="7\7-1\sp_proc1.sql" />
+    <None Include="7\7-1\sp_Globals.sql" />
+    <None Include="7\7-1\northwind.dbo.sp_proc1.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
