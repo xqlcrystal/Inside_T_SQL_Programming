@@ -49,3 +49,28 @@ select cacheobjtype,objtype,usecounts,sql
 from sys.syscacheobjects
 where sql not like '%cache%'
 	and sql like '%usp_GetOrders%'
+
+--sql server 2005以后支持语句级别重编译
+alter proc dbo.usp_GetOrders
+	@oDate as datetime
+
+as
+
+select OrderID,CustomerID,EmployeeID,OrderDate
+from dbo.Orders
+where OrderDate>=@oDate
+option(recompile);
+go
+
+set statistics io on;
+exec dbo.usp_GetOrders @oDate='19980506';
+
+set statistics io on;
+exec dbo.usp_GetOrders @oDate='19960101';
+
+
+
+select cacheobjtype,objtype,usecounts,sql
+from sys.syscacheobjects
+where sql not like '%cache%'
+	and sql like '%usp_GetOrders%'
