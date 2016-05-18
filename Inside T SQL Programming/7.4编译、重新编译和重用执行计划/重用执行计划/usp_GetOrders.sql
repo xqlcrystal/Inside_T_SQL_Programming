@@ -42,3 +42,10 @@ go
 exec dbo.usp_GetOrders @oDate='19980506';
 
 exec dbo.usp_GetOrders @oDate='19960101';
+
+
+--使用重编译选项后将无法看到缓存的对象
+select cacheobjtype,objtype,usecounts,sql
+from sys.syscacheobjects
+where sql not like '%cache%'
+	and sql like '%usp_GetOrders%'
