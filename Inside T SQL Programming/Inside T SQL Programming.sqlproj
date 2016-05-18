@@ -66,6 +66,7 @@
     <Folder Include="7" />
     <Folder Include="7\7-1" />
     <Folder Include="7\7-2" />
+    <Folder Include="7\7-3" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
@@ -81,6 +82,7 @@
     <None Include="7\7-1\sp_proc2.sql" />
     <None Include="7\7-2\GetCustOrders.sql" />
     <None Include="7\7-2\custorders.sql" />
+    <None Include="7\7-3\usp_proc1.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
