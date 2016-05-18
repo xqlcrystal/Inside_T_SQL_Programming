@@ -67,6 +67,8 @@
     <Folder Include="7\7-1" />
     <Folder Include="7\7-2" />
     <Folder Include="7\7-3" />
+    <Folder Include="7.4编译、重新编译和重用执行计划" />
+    <Folder Include="7.4编译、重新编译和重用执行计划\重用执行计划" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
@@ -83,6 +85,7 @@
     <None Include="7\7-2\GetCustOrders.sql" />
     <None Include="7\7-2\custorders.sql" />
     <None Include="7\7-3\usp_proc1.sql" />
+    <None Include="7.4编译、重新编译和重用执行计划\重用执行计划\usp_GetOrders.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
