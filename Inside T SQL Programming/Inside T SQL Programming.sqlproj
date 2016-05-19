@@ -69,6 +69,8 @@
     <Folder Include="7\7-3" />
     <Folder Include="7.4编译、重新编译和重用执行计划" />
     <Folder Include="7.4编译、重新编译和重用执行计划\重用执行计划" />
+    <Folder Include="10错误处理" />
+    <Folder Include="10错误处理\10.1Sql Server 2005之前的错误处理" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
@@ -86,6 +88,7 @@
     <None Include="7\7-2\custorders.sql" />
     <None Include="7\7-3\usp_proc1.sql" />
     <None Include="7.4编译、重新编译和重用执行计划\重用执行计划\usp_GetOrders.sql" />
+    <None Include="10错误处理\10.1Sql Server 2005之前的错误处理\Script1.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
@@ -93,5 +96,6 @@
     <Build Include="5\5-5\Script1.sql" />
     <Build Include="5\5-7\vempOrders.sql" />
     <Build Include="6\6-2\Script1.sql" />
+    <Build Include="10错误处理\10.1Sql Server 2005之前的错误处理\usp_GetCustomerOrders.sql" />
   </ItemGroup>
 </Project>
