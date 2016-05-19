@@ -71,6 +71,7 @@
     <Folder Include="7.4编译、重新编译和重用执行计划\重用执行计划" />
     <Folder Include="10错误处理" />
     <Folder Include="10错误处理\10.1Sql Server 2005之前的错误处理" />
+    <Folder Include="10错误处理\10.2sql Server 2005中的错误处理" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
