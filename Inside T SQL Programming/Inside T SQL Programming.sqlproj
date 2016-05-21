@@ -76,6 +76,7 @@
     <Folder Include="4\4.1Exec" />
     <Folder Include="4\4.2sp_executesql" />
     <Folder Include="4\4.3环境设置" />
+    <Folder Include="4\4.4使用动态sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
