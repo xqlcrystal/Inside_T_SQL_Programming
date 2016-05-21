@@ -75,6 +75,7 @@
     <Folder Include="4" />
     <Folder Include="4\4.1Exec" />
     <Folder Include="4\4.2sp_executesql" />
+    <Folder Include="4\4.3环境设置" />
   </ItemGroup>
   <ItemGroup>
     <None Include="5\5-4\5-4-createdbo.Sales.sql" />
@@ -96,6 +97,9 @@
     <None Include="4\4.1Exec\不支持输出_tempdb.sql" />
     <None Include="4\4.1Exec\sql2000中的限制.sql" />
     <None Include="4\4.2sp_executesql\sp_executesql.sql" />
+    <None Include="4\4.2sp_executesql\可以使用输出参数.sql" />
+    <None Include="4\4.2sp_executesql\Script1.sql" />
+    <None Include="4\4.3环境设置\切换数据库上下文.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="5\5-4\VSalesRN.sql" />
